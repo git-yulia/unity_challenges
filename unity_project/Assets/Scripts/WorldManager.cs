@@ -5,6 +5,7 @@ using UnityEngine;
 public class WorldManager : MonoBehaviour
 {
     public GameObject prefab_to_spawn;
+    private Animator cube_animator;
 
     /// <summary>
     /// Just don't keep pressing spacebar because it 
